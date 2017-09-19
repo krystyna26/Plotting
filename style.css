@@ -1,0 +1,44 @@
+/*CSS reset settings here*/
+*{
+ margin: 10px;
+ padding: 10px;
+ /*background-size: auto;*/
+}
+#wrapper{
+ width: 950px;
+ height: 635px;
+ background-color: silver;
+ margin: 25px, auto;
+}
+#header{
+ height: 150px;
+ background-color: green;
+ /*margin: 100px;*/
+ padding: 20px;
+ border: 100px;
+}
+#navigation{
+ height: 300px;
+ width: 200px;
+ background-color: blue;
+}
+#main_content{
+display: block;
+position: relative;
+left: 240px;
+bottom: 330px;
+ height: 400px;
+ width: 665px;
+ background-color: red;
+}
+.subcontents{
+ height: 150px;
+ width: 150px;
+ background-color: yellow;
+ display: inline-block;
+}
+#advertisement{
+ height: 120px;
+ width: 540px;
+ background-color: purple;
+}
